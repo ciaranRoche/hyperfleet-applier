@@ -1,0 +1,18 @@
+
+[1m[0;36m=== Deleting test cluster: poc-desire-test ===[0m
+
+[0;36m[INFO][0m  API: http://136.116.224.136:8000/api/hyperfleet/v1
+[0;36m[INFO][0m  Cluster ID: 019ed5c9-75f7-7a2e-89e1-114bfa2631d2
+[0;36m[INFO][0m  Sending DELETE request...
+[0;32m[OK][0m    Cluster delete initiated (HTTP 202)
+{
+  "id": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2",
+  "name": "poc-desire-test",
+  "deleted_time": "2026-06-17T13:47:48.392995Z",
+  "generation": 2
+}
+
+[0;36m[INFO][0m  Watch the delete flow:
+[0;36m[INFO][0m    ./02-watch-adapter.sh  (adapter creates DeleteDesires)
+[0;36m[INFO][0m    ./03-watch-applier.sh  (applier deletes resources)
+[0;36m[INFO][0m    ./04-watch-redis.sh    (Redis commands)

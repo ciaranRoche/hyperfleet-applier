@@ -1,0 +1,3 @@
+=== T+3s: just after delete trigger ===
+cluster1:delete:namespaces.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace
+cluster1:read:namespaces.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace

@@ -1,0 +1,3 @@
+=== K8s resources gone ===
+No resources found
+No resources found

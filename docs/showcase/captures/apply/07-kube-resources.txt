@@ -1,0 +1,6 @@
+NAME                                                      STATUS   AGE
+019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace   Active   13m
+NAMESPACE    NAME                                                      DATA   AGE
+hyperfleet   019ed487-e090-73a4-8dec-d6611d1fc144-adapter1-configmap   2      6h4m
+hyperfleet   019ed48b-aa82-7ada-a655-2044d7cb69ca-adapter1-configmap   2      6h
+hyperfleet   019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap   2      13m

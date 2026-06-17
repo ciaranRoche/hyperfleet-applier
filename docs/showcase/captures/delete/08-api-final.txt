@@ -1,0 +1,7 @@
+=== API: cluster hard-deleted ===
+
+[1m[0;36m=== HyperFleet API - Cluster Status ===[0m
+
+[0;36m[INFO][0m  API: http://136.116.224.136:8000/api/hyperfleet/v1
+[1;33m[WARN][0m  Cluster 'poc-desire-test' not found
+[0;36m[INFO][0m  All clusters:

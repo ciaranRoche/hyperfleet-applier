@@ -1,0 +1,28 @@
+{
+  "id": {
+    "partition": "cluster1",
+    "name": "configmaps.hyperfleet.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap"
+  },
+  "spec": {
+    "targetItem": {
+      "group": "",
+      "version": "v1",
+      "resource": "configmaps",
+      "namespace": "hyperfleet",
+      "name": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap"
+    }
+  },
+  "status": {
+    "conditions": [
+      {
+        "type": "Successful",
+        "status": "True",
+        "lastTransitionTime": "2026-06-17T13:44:55Z",
+        "reason": "Synced",
+        "message": "live object mirrored"
+      }
+    ],
+    "kubeContent": "eyJhcGlWZXJzaW9uIjoidjEiLCJkYXRhIjp7ImNsdXN0ZXJfaWQiOiIwMTllZDVjOS03NWY3LTdhMmUtODllMS0xMTRiZmEyNjMxZDIiLCJjbHVzdGVyX25hbWUiOiJwb2MtZGVzaXJlLXRlc3QifSwia2luZCI6IkNvbmZpZ01hcCIsIm1ldGFkYXRhIjp7ImFubm90YXRpb25zIjp7Imh5cGVyZmxlZXQuaW8vZ2VuZXJhdGlvbiI6IjEifSwiY3JlYXRpb25UaW1lc3RhbXAiOiIyMDI2LTA2LTE3VDEzOjMzOjM1WiIsImxhYmVscyI6eyJoeXBlcmZsZWV0LmlvL2FkYXB0ZXIiOiJhZGFwdGVyMSIsImh5cGVyZmxlZXQuaW8vY2x1c3Rlci1pZCI6IjAxOWVkNWM5LTc1ZjctN2EyZS04OWUxLTExNGJmYTI2MzFkMiIsImh5cGVyZmxlZXQuaW8vY2x1c3Rlci1uYW1lIjoicG9jLWRlc2lyZS10ZXN0In0sIm1hbmFnZWRGaWVsZHMiOlt7ImFwaVZlcnNpb24iOiJ2MSIsImZpZWxkc1R5cGUiOiJGaWVsZHNWMSIsImZpZWxkc1YxIjp7ImY6ZGF0YSI6eyJmOmNsdXN0ZXJfaWQiOnt9LCJmOmNsdXN0ZXJfbmFtZSI6e319LCJmOm1ldGFkYXRhIjp7ImY6YW5ub3RhdGlvbnMiOnsiZjpoeXBlcmZsZWV0LmlvL2dlbmVyYXRpb24iOnt9fSwiZjpsYWJlbHMiOnsiZjpoeXBlcmZsZWV0LmlvL2FkYXB0ZXIiOnt9LCJmOmh5cGVyZmxlZXQuaW8vY2x1c3Rlci1pZCI6e30sImY6aHlwZXJmbGVldC5pby9jbHVzdGVyLW5hbWUiOnt9fX19LCJtYW5hZ2VyIjoiaHlwZXJmbGVldC1hcHBsaWVyIiwib3BlcmF0aW9uIjoiQXBwbHkiLCJ0aW1lIjoiMjAyNi0wNi0xN1QxMzozMzozNVoifV0sIm5hbWUiOiIwMTllZDVjOS03NWY3LTdhMmUtODllMS0xMTRiZmEyNjMxZDItYWRhcHRlcjEtY29uZmlnbWFwIiwibmFtZXNwYWNlIjoiaHlwZXJmbGVldCIsInJlc291cmNlVmVyc2lvbiI6IjE3ODE3MDMyMTU1MDI0MzEwMDYiLCJ1aWQiOiIyMmUyNmIwNy1lNDQ0LTRlY2ItODdjZi1hNGVjZGRhNjQ2YWUifX0K"
+  },
+  "version": 138
+}

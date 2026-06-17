@@ -1,0 +1,10 @@
+NAME                                             IMAGE                                                                               STATUS
+adapter1-hyperfleet-adapter-f64d95c79-9q9jp      quay.io/croche/hyperfleet-adapter:desire-cleanup                                    Running
+adapter2-hyperfleet-adapter-75694495bc-99m6d     quay.io/croche/hyperfleet-adapter:desire-cleanup                                    Running
+adapter3-hyperfleet-adapter-6fd4cb4d76-xdjmx     quay.io/croche/hyperfleet-adapter:desire-cleanup                                    Running
+clusters-hyperfleet-sentinel-b7d48546f-rrjbb     quay.io/redhat-services-prod/hyperfleet-tenant/hyperfleet/hyperfleet-sentinel:dev   Running
+hyperfleet-api-6d7b5d67c6-p5rsj                  quay.io/redhat-services-prod/hyperfleet-tenant/hyperfleet/hyperfleet-api:dev        Running
+hyperfleet-api-postgresql-fb5448fff-6rbsj        docker.io/library/postgres:14.2                                                     Running
+hyperfleet-applier-6d9b489f69-vq4ng              quay.io/croche/hyperfleet-applier:desire-cleanup                                    Running
+nodepools-hyperfleet-sentinel-68f6b9dfd8-k65bg   quay.io/redhat-services-prod/hyperfleet-tenant/hyperfleet/hyperfleet-sentinel:dev   Running
+redis-5458cc4f68-8z759                           redis:7-alpine                                                                      Running

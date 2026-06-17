@@ -1,0 +1,27 @@
+
+[1m[0;36m=== Creating test cluster: poc-desire-test ===[0m
+
+[0;36m[INFO][0m  API: http://136.116.224.136:8000/api/hyperfleet/v1
+[0;32m[OK][0m    Cluster created (HTTP 201)
+
+{
+  "id": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2",
+  "name": "poc-desire-test",
+  "kind": "Cluster",
+  "generation": 1,
+  "href": "/api/hyperfleet/v1/clusters/019ed5c9-75f7-7a2e-89e1-114bfa2631d2",
+  "created_time": "2026-06-17T13:33:30.487668Z"
+}
+
+[0;36m[INFO][0m  Cluster ID:  019ed5c9-75f7-7a2e-89e1-114bfa2631d2
+[0;36m[INFO][0m  Generation:  1
+[0;36m[INFO][0m  
+[0;36m[INFO][0m  Now watch the flow:
+[0;36m[INFO][0m    Terminal 1: ./02-watch-adapter.sh
+[0;36m[INFO][0m    Terminal 2: ./03-watch-applier.sh
+[0;36m[INFO][0m    Terminal 3: ./04-watch-redis.sh
+[0;36m[INFO][0m  
+[0;36m[INFO][0m  Then check results:
+[0;36m[INFO][0m    ./07-query-redis.sh
+[0;36m[INFO][0m    ./08-query-api.sh
+[0;36m[INFO][0m    ./09-query-kube-resources.sh

@@ -1,0 +1,16 @@
+{
+  "kind": "ConfigMap",
+  "metadata": {
+    "name": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap",
+    "namespace": "hyperfleet",
+    "labels": {
+      "hyperfleet.io/adapter": "adapter1",
+      "hyperfleet.io/cluster-id": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2",
+      "hyperfleet.io/cluster-name": "poc-desire-test"
+    }
+  },
+  "data": {
+    "cluster_id": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2",
+    "cluster_name": "poc-desire-test"
+  }
+}

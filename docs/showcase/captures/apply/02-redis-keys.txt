@@ -1,0 +1,7 @@
+=== Redis keys ===
+cluster1:apply:configmaps.hyperfleet.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap
+cluster1:read:configmaps.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-configmap
+cluster1:apply:namespaces.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace
+cluster1:read:configmaps.hyperfleet.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap
+cluster1:read:namespaces.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace
+cluster1:apply:configmaps.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-namespace.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter2-configmap

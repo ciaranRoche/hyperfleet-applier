@@ -1,0 +1,2 @@
+=== T+21s: mid-flight (after applier confirm, before adapter cleanup) ===
+

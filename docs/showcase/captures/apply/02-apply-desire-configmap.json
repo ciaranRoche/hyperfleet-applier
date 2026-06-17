@@ -1,0 +1,28 @@
+{
+  "id": {
+    "partition": "cluster1",
+    "name": "configmaps.hyperfleet.019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap"
+  },
+  "spec": {
+    "kubeContent": "eyJhcGlWZXJzaW9uIjoidjEiLCJkYXRhIjp7ImNsdXN0ZXJfaWQiOiIwMTllZDVjOS03NWY3LTdhMmUtODllMS0xMTRiZmEyNjMxZDIiLCJjbHVzdGVyX25hbWUiOiJwb2MtZGVzaXJlLXRlc3QifSwia2luZCI6IkNvbmZpZ01hcCIsIm1ldGFkYXRhIjp7ImFubm90YXRpb25zIjp7Imh5cGVyZmxlZXQuaW8vZ2VuZXJhdGlvbiI6IjEifSwibGFiZWxzIjp7Imh5cGVyZmxlZXQuaW8vYWRhcHRlciI6ImFkYXB0ZXIxIiwiaHlwZXJmbGVldC5pby9jbHVzdGVyLWlkIjoiMDE5ZWQ1YzktNzVmNy03YTJlLTg5ZTEtMTE0YmZhMjYzMWQyIiwiaHlwZXJmbGVldC5pby9jbHVzdGVyLW5hbWUiOiJwb2MtZGVzaXJlLXRlc3QifSwibmFtZSI6IjAxOWVkNWM5LTc1ZjctN2EyZS04OWUxLTExNGJmYTI2MzFkMi1hZGFwdGVyMS1jb25maWdtYXAiLCJuYW1lc3BhY2UiOiJoeXBlcmZsZWV0In19",
+    "targetItem": {
+      "group": "",
+      "version": "v1",
+      "resource": "configmaps",
+      "namespace": "hyperfleet",
+      "name": "019ed5c9-75f7-7a2e-89e1-114bfa2631d2-adapter1-configmap"
+    }
+  },
+  "status": {
+    "conditions": [
+      {
+        "type": "Successful",
+        "status": "True",
+        "lastTransitionTime": "2026-06-17T13:35:25Z",
+        "reason": "Applied",
+        "message": "resource applied via SSA"
+      }
+    ]
+  },
+  "version": 26
+}
