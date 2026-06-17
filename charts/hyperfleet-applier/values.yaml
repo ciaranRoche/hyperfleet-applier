@@ -1,0 +1,27 @@
+image:
+  repository: hyperfleet-applier
+  tag: "poc"
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+redis:
+  address: "redis.hyperfleet.svc.cluster.local:6379"
+
+applier:
+  partition: "cluster1"
+  pollInterval: "5s"
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    memory: 256Mi
+
+serviceAccount:
+  create: true
+  name: hyperfleet-applier
+
+rbac:
+  create: true

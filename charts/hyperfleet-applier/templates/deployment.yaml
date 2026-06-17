@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hyperfleet-applier
+  labels:
+    app.kubernetes.io/name: hyperfleet-applier
+    app.kubernetes.io/component: desire-applier
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: hyperfleet-applier
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: hyperfleet-applier
+        app.kubernetes.io/component: desire-applier
+    spec:
+      serviceAccountName: {{ .Values.serviceAccount.name }}
+      containers:
+        - name: applier
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: REDIS_ADDRESS
+              value: {{ .Values.redis.address | quote }}
+            - name: APPLIER_PARTITION
+              value: {{ .Values.applier.partition | quote }}
+            - name: APPLIER_POLL_INTERVAL
+              value: {{ .Values.applier.pollInterval | quote }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
