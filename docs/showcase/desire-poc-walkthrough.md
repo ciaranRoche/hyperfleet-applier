@@ -33,8 +33,6 @@ Inspired by ARO-HCP's `kube-applier`. POC repos (all on
 - [github.com/ciaranRoche/hyperfleet-adapter](https://github.com/ciaranRoche/hyperfleet-adapter) — `desireclient.Client` transport
 - [github.com/ciaranRoche/hyperfleet-infra](https://github.com/ciaranRoche/hyperfleet-infra) — adapter configs + Redis chart
 
-Diagrams in the team Obsidian vault: `Work/Projects/HyperFleet/Planning/Maestro Replacement/POC Diagrams/POC - 01..09`.
-
 ---
 
 ## The stack at rest

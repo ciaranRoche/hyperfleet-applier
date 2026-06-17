@@ -58,8 +58,15 @@ branch:
 Until the desire-based work lands on `main` and the types move to a
 published package, this is the only way to build.
 
+## Walkthrough
+
+[**`docs/showcase/desire-poc-walkthrough.md`**](docs/showcase/desire-poc-walkthrough.md)
+— live capture of the POC running end-to-end (apply + delete + cleanup)
+on the GKE dev cluster, backed by 17 supporting files (logs, JSON
+dumps, Redis snapshots). Every code-block in the walkthrough is real
+output. Read this if you want to understand what was built without
+running the demo yourself.
+
 ## Related
 
-- Architecture / design notes: team Obsidian vault, under
-  `Work/Projects/HyperFleet/Planning/Maestro Replacement/`
 - Inspired by: [ARO-HCP kube-applier](https://github.com/Azure/ARO-HCP/tree/main/kube-applier)
